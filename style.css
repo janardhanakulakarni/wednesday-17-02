@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+.main-header{
+  background-image: url("Images/background.jpg");
+  background-color: rgba(0,0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-size: auto;
+  padding-bottom: 90px;
+}
+html body{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: cursive;
+}
+.nav li{
+  display: inline;
+
+}
+.main-nav li{
+  padding: 8%;
+}
+.nav ul{
+  margin: 0;
+}
+.main-nav{
+  text-align: center;
+  font-size: 1.5em;
+  border-bottom: 2px solid;
+}
+.list-color{
+    color: white;
+    font-family: fantasy;
+}
+
+.band-name{
+  text-align: center;
+  padding-top: 3%;
+  color: red;
+  font-size: 3em;
+  font-family: Metal Mania;
+}
+.container-section{
+  max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.about-band{
+  font-family: "Metal Mania";
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+
+}
+.band-image{
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 5%;
+  border-radius: 60%;
+}
+.con{
+  background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+.mfc {
+    display: flex;
+    align-items: center;
+}
+
+.mfc ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+.footer-nav img{
+  width: 30px;
+    height: 30px;
+}
+.footer-name{
+  font-family: "Metal Mania";
+  padding: 0 30px;
+}
